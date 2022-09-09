@@ -33,7 +33,7 @@ export default function Landing(){
                             <span id={el.socialMedia ==='twitter'? 'twitter': el.socialMedia ==='facebook'? 'facebook': el.socialMedia === 'instagram'? 'instagram': 'youtuve' }></span>
 
                             <div className="nose"> 
-                            {el.socialMedia === 'youtube'? <Image src={youtbue}/>: el.socialMedia === 'facebook'? <Image src={facebook}/>:
+                            {el.socialMedia === 'youtuve'? <Image src={youtbue}/>: el.socialMedia === 'facebook'? <Image src={facebook}/>:
                             el.socialMedia === 'instagram'? <Image src={instagram}/>:
                              <Image src={twitter}/>}
                             <p className="name">{el.userName}</p>
